@@ -2,6 +2,9 @@
 ![GitHub issues](https://img.shields.io/github/issues/Route23/SubwayUI?style=flat-square)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Route23/Subwayui?style=flat-square)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/Route23/SubwayUI?style=flat-square)
+
+SubwayUI is a web user interface that incorporates the style of the subway wayfinding system.
+
 ## Links
 - [Route23/SubwayUI](https://github.com/Route23/SubwayUI)
 - [Issues](https://github.com/Route23/SubwayUI/issues)
