@@ -29,17 +29,17 @@
 	<Counter />
 </section>
 
-<style>
+<style lang="scss">
 	section {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		flex: 1;
-	}
-
-	h1 {
-		width: 100%;
+		h1 {
+			width: 100%;
+			color: red;
+		}
 	}
 
 	.welcome {
