@@ -12,21 +12,8 @@
 
 <section>
 	<h1>
-		<div class="welcome">
-			<picture>
-				<source srcset="svelte-welcome.webp" type="image/webp" />
-				<img src="svelte-welcome.png" alt="Welcome" />
-			</picture>
-		</div>
-
-		to your new<br />SvelteKit app
+		SubwayUI
 	</h1>
-
-	<h2>
-		try editing <strong>src/routes/index.svelte</strong>
-	</h2>
-
-	<Counter />
 </section>
 
 <style lang="scss">
@@ -38,7 +25,7 @@
 		flex: 1;
 		h1 {
 			width: 100%;
-			color: red;
+			color: #FCCC0A;
 		}
 	}
 
