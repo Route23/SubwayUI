@@ -1,6 +1,6 @@
 ---
 name: BUG REPORT
-about: I get nervous when people ask me questions.
+Docs: I get nervous when people ask me questions.
 title: "[BUG REPORT]: title"
 labels: bug
 assignees: ''

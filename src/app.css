@@ -1,96 +1,106 @@
 @import '@fontsource/fira-mono';
 
 :root {
-	font-family: Arial, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
-		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-	--font-mono: 'Fira Mono', monospace;
-	--pure-white: #ffffff;
-	--dark: #000;
-	--secondary-color: #d0dde9;
-	--tertiary-color: #edf0f8;
-	--accent-color: #FCCC0A;
-	--heading-color: rgba(0, 0, 0, 0.7);
-	--text-color: #444444;
-	--background-without-opacity: rgba(255, 255, 255, 0.7);
-	--column-width: 42rem;
-	--column-margin-top: 4rem;
+  font-family: 'Inter', sans-serif;
+
+  --font-mono: 'Fira Mono', monospace;
+  --pure-white: #fff;
+  --dark: #000;
+  --secondary-color: #d0dde9;
+  --tertiary-color: #edf0f8;
+  --accent-color: #fccc0a;
+  --heading-color: rgba(0, 0, 0, .7);
+  --text-color: #444;
+  --background-without-opacity: rgba(255, 255, 255, .7);
+  --column-width: 42rem;
+  --column-margin-top: 4rem;
 }
 
 body {
-	min-height: 100vh;
-	margin: 0;
-	background-color: var(--dark);
+  min-height: 100vh;
+  margin: 0;
+  background-color: var(--dark);
 }
 
 body::before {
-	content: '';
-	width: 80vw;
-	height: 100vh;
-	position: absolute;
-	top: 0;
-	left: 10vw;
-	z-index: -1;
-	opacity: 0.05;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 10vw;
+  width: 80vw;
+  height: 100vh;
+  content: '';
+  opacity: .05;
 }
 
 #svelte {
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 h1,
 h2,
 p {
-	font-weight: 400;
-	color: var(--heading-color);
+  color: var(--heading-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  width: fit-content;
+  margin: 0;
+  color: #fff;
+  font-weight: 900;
 }
 
 p {
-	line-height: 1.5;
+  line-height: 1.5;
 }
 
 a {
-	color: var(--accent-color);
-	text-decoration: none;
+  text-decoration: none;
+  color: var(--accent-color);
 }
 
 a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 h1 {
-	font-size: 2rem;
-	text-align: center;
+  text-align: center;
+  font-size: 2rem;
 }
 
 h2 {
-	font-size: 1rem;
+  font-size: 1.8rem;
 }
 
 pre {
-	font-size: 16px;
-	font-family: var(--font-mono);
-	background-color: rgba(255, 255, 255, 0.45);
-	border-radius: 3px;
-	box-shadow: 2px 2px 6px rgb(255 255 255 / 25%);
-	padding: 0.5em;
-	overflow-x: auto;
-	color: var(--text-color);
+  overflow-x: auto;
+  padding: .5em;
+  color: var(--text-color);
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, .45);
+  box-shadow: 2px 2px 6px rgb(255 255 255 / 25%);
+  font-family: var(--font-mono);
+  font-size: 16px;
 }
 
 input,
 button {
-	font-size: inherit;
-	font-family: inherit;
+  font-family: inherit;
+  font-size: inherit;
 }
 
 button:focus:not(:focus-visible) {
-	outline: none;
+  outline: none;
 }
 
 @media (min-width: 720px) {
-	h1 {
-		font-size: 2.4rem;
-	}
+  h1 {
+    font-size: 2.4rem;
+  }
 }
