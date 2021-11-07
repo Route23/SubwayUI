@@ -6,8 +6,14 @@
 <header>
 	<nav>
 		<ul>
-			<li class:active={$page.path === '/'}><a sveltekit:prefetch href="/">Home</a></li>
-			<li class:active={$page.path === '/docs'}><a sveltekit:prefetch href="/docs">Docs</a></li>
+			<li class:active={$page.path === '/'}>
+				<a sveltekit:prefetch href="/">
+					<div class="yellow black-icon"><i class="material-icons icon">subway</i></div>
+				</a>
+			</li>
+			<li class:active={$page.path === '/docs'}>
+				<a sveltekit:prefetch href="/docs">Docs</a>
+			</li>
 			<!-- <li class:active={$page.path === '/todos'}><a sveltekit:prefetch href="/todos">Todos</a></li> -->
 		</ul>
 	</nav>
@@ -58,15 +64,24 @@
 		align-items: center;
 		padding-right: 20px;
 		color: #fff;
-		font-weight: 700;
-		font-size: 0.8rem;
+		font-weight: 900;
+		font-size: .8735804647362989em;
 		text-transform: uppercase;
-		letter-spacing: 0.1em;
 		text-decoration: none;
 		transition: color 0.2s linear;
 	}
 
 	a:hover {
 		color: var(--accent-color);
+	}
+	.black-icon {
+		color: #000;
+		width: 30px;
+		height: 30px;
+		text-align: center;
+		line-height: 42px;
+	}
+	.yellow {
+		background-color: #FCCC0A;
 	}
 </style>
