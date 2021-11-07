@@ -20,6 +20,16 @@ SubwayUI is a web user interface that incorporates the style of the subway wayfi
 - [all issues](https://github.com/Route23/SubwayUI/issues)
 - Create an issue from [here](https://github.com/Route23/SubwayUI/issues/new/choose).
 
+## Branches
+[ASCII Tree Generator](https://ascii-tree-generator.com/)
+```
+SubwayUI/
+├─ main/
+├─ feature/
+   ├─ sw-fix-<#issue_num>/
+   ├─ sw-doc-<#issue_num>/
+```
+
 ## Contributers
 <a href="https://github.com/Route23/SubwayUI/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Route23/SubwayUI" />

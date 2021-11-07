@@ -1,6 +1,6 @@
 ---
 name: QUESTION
-about: Ask me anything.
+Docs: Ask me anything.
 title: "[QUESTION]: title"
 labels: question
 assignees: ''
